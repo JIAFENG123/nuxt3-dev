@@ -1,0 +1,8 @@
+{
+    "hello": "你好, {name}!",
+    "language": "语言",
+    "home": "主页",
+    "test": "测试",
+    "server": "api调用",
+    "nuxt-intro": "Nuxt 提供前端和后端功能，因此您可以专注于重要的事情：创建您的 Web 应用程序。"
+}

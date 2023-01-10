@@ -1,0 +1,8 @@
+{
+    "hello": "Hello, {name}!",
+    "language": "Language",
+    "home": "Home",
+    "test": "Test",
+    "server": "Server",
+    "nuxt-intro": "Nuxt provides both frontend and backend functionality so you can focus on what matters: Creating your web application."
+}

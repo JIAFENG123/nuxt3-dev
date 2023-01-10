@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+  字体文件
+*/
+@font-face {
+  font-family: LuckiestGuy;
+  src: url('~/assets/fonts/luckiest-guy/LuckiestGuy.ttf') format("truetype");
+} 
+@font-face {
+  font-family: baotuxiaobaiti;
+  src: url('~/assets/fonts/baotuxiaobaiti/baotuxiaobaitiRegular.ttf') format("truetype");
+}
