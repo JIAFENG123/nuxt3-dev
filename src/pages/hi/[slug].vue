@@ -22,5 +22,8 @@ definePageMeta({
   <template #not-found>
       <Error :code="404" wrap />
     </template> -->
+    <template #not-found>
+      <h1>Document not found</h1>
+    </template>
   </ContentDoc>
 </template>
