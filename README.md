@@ -4,7 +4,7 @@
 
 <p align="center">
 <br>
-<a href="https://vitesse-nuxt3.netlify.app/">🖥 Online Preview</a>
+<a href="https://sensational-panda-c3ce8c.netlify.app">🖥 Online Preview</a>
 <br><br>
 </p>
 
