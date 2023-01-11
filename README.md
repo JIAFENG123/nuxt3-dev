@@ -26,6 +26,12 @@
 
 - 🦾 TypeScript, of course
 
+- 🌍 [i18n](./locales)
+
+- 📝 [Markdown](./content) support
+
+- 📦 [Pnpm](https://pnpm.io/) - Fast, disk space efficient package manager
+
 ## Plugins
 
 ### Nuxt Modules
@@ -44,4 +50,5 @@ If you prefer to do it manually with the cleaner git history
 ```bash
 cd nuxt-dev
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+pnpm run dev # or npm run dev
 ```
