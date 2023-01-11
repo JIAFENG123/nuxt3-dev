@@ -1,10 +1,3 @@
-<script lang="ts" setup>
-definePageMeta({
-  layout: 'page',
-})
-const { data } = await useFetch<{ data: { content: string } }>('/api/testServer')
-</script>
-
 <template>
   <div class="text-center">
     <img src="https://v1.jinrishici.com/all.svg" alt="">
@@ -13,3 +6,10 @@ const { data } = await useFetch<{ data: { content: string } }>('/api/testServer'
     </p>
   </div>
 </template>
+
+<script lang="ts" setup>
+definePageMeta({
+  layout: 'page',
+})
+const { data } = await useFetch<{ data: { content: string } }>('/api/testServer')
+</script>

@@ -1,14 +1,3 @@
-<script lang='ts' setup>
-const router = useRouter()
-definePageMeta({
-  layout: 'page',
-})
-const toDetail = (e: Event) => {
-  const target = e.target as HTMLElement
-  router.push(`/hi/${target.innerText}`)
-}
-</script>
-
 <template>
   <div>
     <Head>
@@ -31,3 +20,14 @@ const toDetail = (e: Event) => {
     </div>
   </div>
 </template>
+
+<script lang='ts' setup>
+const router = useRouter()
+definePageMeta({
+  layout: 'page',
+})
+const toDetail = (e: Event) => {
+  const target = e.target as HTMLElement
+  router.push(`/hi/${target.innerText}`)
+}
+</script>

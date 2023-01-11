@@ -1,9 +1,3 @@
-<script setup lang="ts">
-definePageMeta({
-  layout: 'page',
-})
-</script>
-
 <template>
   <div class="flex w-full justify-center items-center flex-col">
     <Head>
@@ -29,3 +23,9 @@ definePageMeta({
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+definePageMeta({
+  layout: 'page',
+})
+</script>
